@@ -11,11 +11,26 @@ Not polished blog posts — just honest, dated notes as I go.
 
 | Date | Topic | Category |
 |------|-------|----------|
-| YYYY-MM-DD | [Entry title](#) | ML / DSA / GenAI / Frontend |
+| 2026-07-13 | [Untitled]() | TBD |
 
 ---
 
 ## Entries
+
+### 2026-07-13 — Untitled
+
+**Category:** TBD
+
+_Stub auto-created — fill this in with what you actually learned today._
+
+```
+# code snippet if relevant
+```
+
+**Why it matters / where I'll use it:**
+
+
+---
 
 ### YYYY-MM-DD — Topic Title
 **Category:** ML / DSA / GenAI / Frontend
