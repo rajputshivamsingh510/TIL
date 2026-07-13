@@ -1,0 +1,32 @@
+name: Daily TIL Entry
+
+on:
+  schedule:
+    - cron: '0 3 * * *'   # runs daily at 3:00 AM UTC — adjust to whenever your day starts
+  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  add-entry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Add today's stub entry
+        run: python scripts/add_entry.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "rajputshivamsingh510"
+          git config user.email "147087869+rajputshivamsingh510@users.noreply.github.com"
+          git add README.md
+          git commit -m "TIL: $(date -u '+%Y-%m-%d') stub" || echo "No changes to commit"
+          git push
