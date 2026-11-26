@@ -11,6 +11,7 @@ Not polished blog posts — just honest, dated notes as I go.
 
 | Date | Topic | Category |
 |------|-------|----------|
+| 2026-11-26 | [Untitled]() | TBD |
 | 2026-11-25 | [Untitled]() | TBD |
 | 2026-11-24 | [Untitled]() | TBD |
 | 2026-11-23 | [Untitled]() | TBD |
@@ -151,6 +152,21 @@ Not polished blog posts — just honest, dated notes as I go.
 ---
 
 ## Entries
+
+### 2026-11-26 — Untitled
+
+**Category:** TBD
+
+_Stub auto-created — fill this in with what you actually learned today._
+
+```
+# code snippet if relevant
+```
+
+**Why it matters / where I'll use it:**
+
+
+---
 
 ### 2026-11-25 — Untitled
 
